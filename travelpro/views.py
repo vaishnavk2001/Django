@@ -6,4 +6,4 @@ from django.shortcuts import render
 #     return HttpResponse('hello world')
 
 def fun(request):
-    return render(request, 'home.html')
+    return render(request, 'home.html', {'name': 'vaishnav'})
