@@ -1,4 +1,4 @@
-# Django-project
+# Django
 
 mkvirtualenv env_name
 pip install django
